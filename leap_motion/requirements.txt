@@ -1,0 +1,11 @@
+cycler==0.10.0
+imageio==2.8.0
+kiwisolver==1.2.0
+matplotlib==3.2.1
+numpy==1.18.4
+parameterized==0.7.4
+Pillow==7.1.2
+pybullet==2.7.5
+pyparsing==2.4.7
+python-dateutil==2.8.1
+six==1.14.0
