@@ -16,15 +16,15 @@
 
 ## Shadow Dexterous Hand Movements
     
-<img src="images/gif/shadow_hand.gif" align="left" width="49%" alt="Shadow Hand" />
-
-<img src="images/gif/shadow_hand_block.gif" align="right" width="49%" alt="Shadow Hand Block" />
+|            |                       |
+| ---------- |---------------------- |
+| ![ShadowHandGif](images/gif/shadow_hand.gif) | ![ShadowHandGif](images/gif/shadow_hand_block.gif) |
 
 # CyberGlove Movements
 
-<img src="images/gif/cyberglove.gif" align="left" width="49%" alt="CyberGlove" />
-
-<img src="images/gif/cyberglove_block.gif" align="right" width="49%" alt="CyberGlove Block" />
+|            |                       |
+| ---------- |---------------------- |
+| ![ShadowHandGif](images/gif/cyberglove.gif) | ![ShadowHandGif](images/gif/cyberglove_block.gif) |
 
 ## Kinematics
 
