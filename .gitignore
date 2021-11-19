@@ -133,3 +133,4 @@ dmypy.json
 *.lib
 Leap.py
 LeapPython.pyd
+logs/
