@@ -1,0 +1,40 @@
+shadow_hand_reach_goalenv-v0:
+    n_timesteps: !!float 5e6
+    policy: 'MlpPolicy'
+    model_class: 'ddpgfed'
+    random_exploration: !!float 0.3
+    n_sampled_goal: 4
+    goal_selection_strategy: 'future'
+    buffer_size: 1000000
+    batch_size: 256
+    gamma: 0.95
+    memory_limit: 1000000
+    noise_type: 'normal'
+    noise_std: 0.22
+    normalize_observations: False
+    normalize_returns: False
+    actor_lr: !!float 1e-3
+    critic_lr: !!float 1e-3
+
+shadow_hand_block_goalenv-v1:
+    n_timesteps: !!float 2e6
+    policy: 'MlpPolicy'
+    model_class: 'ddpgfed'
+    random_exploration: !!float 0.3
+    n_sampled_goal: 4
+    goal_selection_strategy: 'future'
+    buffer_size: 1000000
+    batch_size: 256
+    gamma: 0.95
+    memory_limit: 1000000
+    noise_type: 'normal'
+    noise_std: 0.22
+    normalize_observations: False
+    normalize_returns: False
+    policy_kwargs: "dict(layers=[256, 256, 256])"
+    actor_lr: !!float 1e-3
+    critic_lr: !!float 1e-3
+    expert_data: "experts/shadow_hand_block_goalenv-v1/shadow_hand_block_goalenv-v1_expert.npz"
+    expert_use: True
+    expert_batch_size: 64
+    expert_limit_success: !!float 0.5

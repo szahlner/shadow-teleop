@@ -1,0 +1,17 @@
+shadow_hand_reach-v1:
+    n_timesteps: !!float 1e6
+    policy: 'MlpPolicy'
+    gamma: 0.95
+    memory_limit: 1000000
+    noise_type: 'normal'
+    noise_std: 0.22
+    batch_size: 256
+    normalize_observations: False
+    normalize_returns: False
+    actor_lr: !!float 1e-3
+    critic_lr: !!float 1e-3
+    expert_data: "experts/shadow_hand_reach-v1/shadow_hand_reach-v1_expert.npz"
+    expert_use: True
+    expert_batch_size: 128
+    #expert_limit_success: !!float 0.5
+    policy_kwargs: "dict(layers=[256, 256, 256])"
