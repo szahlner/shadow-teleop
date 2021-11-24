@@ -128,6 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+##########################
+
 # Files
 *.dll
 *.lib
@@ -135,8 +137,25 @@ Leap.py
 LeapPython.pyd
 logs/
 
-# PyCharm
+##########################
+
+# IDE settings
 .idea
-.idea/
-*.idea
-*.idea/
+
+# Files
+*.zip
+*.csv
+*.svg
+
+# Compiled source
+*.o
+*.pyc
+#*.pyd
+*.egg-info
+*.pkl
+
+# Temporary files
+*~
+
+# Python virtualenv
+venv
