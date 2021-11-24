@@ -136,4 +136,4 @@ LeapPython.pyd
 logs/
 
 # PyCharm
-.idea
+*.idea
