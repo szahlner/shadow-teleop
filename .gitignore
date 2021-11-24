@@ -138,3 +138,5 @@ logs/
 # PyCharm
 .idea
 .idea/
+*.idea
+*.idea/
