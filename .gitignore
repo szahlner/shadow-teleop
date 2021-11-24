@@ -134,3 +134,6 @@ dmypy.json
 Leap.py
 LeapPython.pyd
 logs/
+
+# PyCharm
+.idea
